@@ -1,0 +1,134 @@
+
+header h1
+{
+
+  float:left;
+}
+header h1 div
+{
+  display: inline-block;
+}
+header h1 #logo1
+{
+  font-size:20px;
+}
+header h1 #logo2
+{
+  font-weight: lighter;
+}
+header nav
+{
+  float: right;
+  padding:15px;
+}
+header nav ul li
+{
+  display: inline-block;
+  margin-left:10px;
+}
+header nav ul li a
+{
+  text-decoration: none;
+  color: black;
+}
+header nav ul li a:hover
+{
+  color:darkgrey;
+}
+
+#frontimage
+{
+  clear: both;
+  width:100%;
+  height: 30%;
+  padding-top:60px;
+  padding-bottom:40px;
+  margin-top:20px;
+  background-color: #3498DB;
+  background-image: url(mountainview.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#frontimage h2 , #frontimage p
+{
+  text-align: center;
+  color: lightgrey ;
+}
+#frontimage h2
+{
+  background-color:rgba(1,3,2,0.5);
+  padding-top:15px;
+  padding-bottom:15px;
+  padding-left:40px;
+  padding-right:40px;
+  border-radius:15px;
+  float: right;
+  margin-right:560px;
+}
+#frontimage p
+{
+  clear: both;
+  padding-top:30px;
+}
+
+#middle
+{
+  padding-left:350px;
+  display:inline-block;
+}
+#middle #paragraphone
+{
+  width:35%;
+  float: left;
+}
+#middle input
+{
+  background-color:#051230;
+  padding:5px;
+  padding-left:10px;
+  padding-right:10px;
+  color: white;
+}
+#middle #paragraphtwo
+{
+  width:35%;
+  padding-right:50px;
+  padding-left:50px;
+  float: right;
+  margin-right:180px;
+}
+
+#commasymbol
+{
+  padding-left:350px;
+  width:65%;
+}
+#commasymbol img
+{
+  width: 40%;
+}
+#commasymbol blockcomma
+{
+  background-color:rgba(200,200,200,0.1);
+  margin-left:-1px;
+  border-left:10px solid black;
+}
+#commasymbol blockcomma p::before
+{
+  content:url(commas.gif);
+  padding-left:10px;
+  padding-right:20px;
+}
+#commasymbol blockcomma p::after
+{
+  content:url(commas.gif);
+  padding-left:10px;
+  padding-right:20px;
+}
+footer{
+  text-align: center;
+}
+footer p strong
+{
+  font-family: sans-serif;
+}
